@@ -59,7 +59,7 @@ section div{
 }
 
 input{
-  width: 40vw;
+  width: 100%;
   height: 30px;
   outline: none;
   border: 3px solid black;
@@ -78,11 +78,16 @@ button{
   background-color: white;
   border-radius: 5px;
   padding: 0;
+  padding-top: 3px;
 }
 
 button:hover{
   background-color: #526D82;
   color: white;
+}
+
+.searchTop{
+  width: 50vw;
 }
 
 code {
@@ -186,5 +191,8 @@ p{
   }
   h1{
     margin-bottom: 7vw;
+  }
+  .searchTop{
+    width: 90vw;
   }
 }
