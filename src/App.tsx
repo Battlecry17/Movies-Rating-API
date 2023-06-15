@@ -117,7 +117,7 @@ function App() {
 
       </div>
       <div className={'overall '+ (hide ? '' : 'hidden')}>
-        <h2>{ratings.overall}</h2>
+        <h2>{"Overall score: " + ratings.overall}</h2>
       </div>
       </section>
     </div>
