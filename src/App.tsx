@@ -97,6 +97,7 @@ function App() {
         })}
       </div>
       </div>
+        <i>(supports movies that have are rated on platforms)</i>
       <div className={'ratings ' + (hide ? '' : 'hidden')}>
       <div>
           <img src="Metascore.png" alt="" className='resultImages' />
