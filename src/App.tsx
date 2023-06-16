@@ -97,7 +97,6 @@ function App() {
         })}
       </div>
       </div>
-      <i>(technically, supports series and cartoons too)</i>
       <div className={'ratings ' + (hide ? '' : 'hidden')}>
       <div>
           <img src="Metascore.png" alt="" className='resultImages' />
